@@ -6,6 +6,7 @@ import java.util.List;
 import gus.scpua.items.armour.COMSuit;
 import gus.scpua.items.*;
 import gus.scpua.items.scp.SelfReplecatingCake;
+import gus.scpua.items.scp.WeedScp;
 import gus.scpua.items.tools.Medical;
 import gus.scpua.items.tools.ToolSword;
 import gus.scpua.util.enums.XKInventory;
@@ -45,6 +46,7 @@ public class ItemInit {
 
     /* SCP Items */
     public static final Item SELF_REPLECATING_CAKE = new SelfReplecatingCake("uselfreplicatingcake", 2, false);
+    public static final Item DRUGS_SCP = new WeedScp("420-j", 1, false);
 
     // Misc Items \\
     public static final Item WRENCH = new ItemBase("wrench", XKInventory.XKUnity);
